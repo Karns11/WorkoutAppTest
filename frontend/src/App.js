@@ -21,8 +21,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HomeScreen />} />
-        <Route path="/login" element={<LoginScreen />} />
+        <Route path="/" element={<LoginScreen />} />
         <Route path="/register" element={<RegisterScreen />} />
         <Route path="/mainscreen" element={<MainScreen />} />
         <Route path="/profile" element={<ProfileScreen />} />
